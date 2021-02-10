@@ -19,20 +19,23 @@
   ([]
    (get-data "resources/books_new.csv")))
 
-(count (get-data))
+(defn str-contains
+  [source-str to-search]
+  (-> (str "(?i).*" to-search ".*")
+      (re-pattern)
+      (re-matches  source-str)
+      (nil?)
+      (not)))
+  ;; (not  (nil? (re-matches (re-pattern (str "(?i).*" to-search ".*")) source-str))))
 
-(reduce +
-        (->> (get-data)
-             (filter #(. (:Genre %1) contains "Programming"))
-             (filter #(. (:Title %1) matches ".*Clojure.*"))
-             #_(map :Price)
-             (map #(Integer/parseInt (:Price %)))
-             (reduce +)
-             #_(set)
-             #_(count)))
+;; 1. Get title of all the books
+;; 2. Get tilte of all the books that has the word clojure in it
+;; 3. Total price of all the Clojure books available
 
 
-
-(count (set (map :Genre (get-data))))
-
-(:Genre (nth (get-data) 1))
+;; Map
+;; Filter
+;; reduce
+;; get using keyword
+;; anonymous function
+;; Threading macro
