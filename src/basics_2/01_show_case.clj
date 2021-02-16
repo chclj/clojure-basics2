@@ -17,7 +17,8 @@
 ;; accessed.
 ;; 
 ;; This SoF answer gives a good mental model on how it works behind the scene.
-;; https://stackoverflow.com/a/44102122/2046462
+;; https://stackoverflow.com/a/44102122
+
 
 
 ;; Fibonacci sequence under 50 characters
@@ -28,6 +29,9 @@
  (map + fib (rest fib))))
 
 (take 10 fib)
+
+;; This gives a mental-model of how it works 
+;; https://stackoverflow.com/a/56576524
 
 ;; With Macros you can write custom control structures
 
