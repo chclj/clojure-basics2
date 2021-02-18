@@ -17,7 +17,7 @@
 
 (last (fib 10000))
 ;; StackOverflowError - The size of the stack is limited,
-;; which recursion blowsup when done beyond the limit (TODO: specify limit)
+;; which recursion blowsup when done beyond the limit.
 
 ;; Regardless, recursion is a easy way of expressing the logic and
 ;; Invaraible almost that's the only way in most of functional programming languages
@@ -55,4 +55,4 @@
                  x
                  (recur (conj x (apply +' (take-last 2 x))) n (inc cnt)))))))
 
-(last (fib-with-loop-recur 2))
+(last (fib-with-loop-recur 5))
