@@ -35,14 +35,9 @@
 (macroexpand '(my-when-not (nil? some-string) (. some-string length)))
 
 
-;; In-fix expression evaluator
-(defmacro in-fix-op
-  [expr]
-  `(~(second expr)
-    ~(first expr)
-    ~(last expr)))
+;; Exercise in-fix expression evaluator
+;; Define a macro which evaluates an infix notation
 
-(in-fix-op (2 - 1))
 
 ;; Like this, macro allows you to turn any non-clojure syntax to 
 ;; clojure to syntax
