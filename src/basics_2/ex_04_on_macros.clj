@@ -30,7 +30,6 @@
   [predicate expr]
   `(if ~(not predicate) ~expr nil))
 
-;; TODO - Difference between ' and `
 
 (macroexpand '(my-when-not (nil? some-string) (. some-string length)))
 
