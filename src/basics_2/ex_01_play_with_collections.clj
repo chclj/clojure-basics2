@@ -16,6 +16,7 @@
     (slurp file)
     (csv/read-csv)
     (csv-data->maps)))
+; Jack-in done.
   ([]
    (get-data "resources/books_new.csv")))
 
