@@ -1,0 +1,11 @@
+{
+  "calva.replConnectSequences": [
+      {
+          "name": "REPL",
+          "projectType": "Clojure CLI",
+          "cljsType": "none"
+      }
+  ],
+  "calva.paredit.defaultKeyMap" : "none",
+  "calva.openREPLWindowOnConnect": false
+}
