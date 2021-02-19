@@ -9,7 +9,7 @@ you can practice in the playground from https://github.com/chclj/clojure-basics1
 
 This is designed to be compatible with gitpod, along with required plugins.
 
-You can start the workspace from this [GitPod link](https://gitpod.io/#https://github.com/chclj/clojure-gitpod)
+You can start the workspace from this https://gitpod.io/#https://github.com/chclj/clojure-gitpod[GitPod link]
 
 You'll be required to login/create a free account in gitpod. 
 
