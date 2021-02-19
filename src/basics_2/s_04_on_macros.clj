@@ -1,4 +1,4 @@
-(ns basics-2.ex_04_on_macros)
+(ns basics-2.s_04_on_macros)
 
 ;; Quote - Lets you have an expression unevaluated
 

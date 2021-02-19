@@ -1,4 +1,4 @@
-(ns basics-2.01_show_case)
+(ns basics-2.s_00_show_case)
 
 ;; Lazy - Seq
 

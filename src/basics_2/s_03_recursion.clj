@@ -1,4 +1,4 @@
-(ns basics-2.ex_03_recursion)
+(ns basics-2.s_03_recursion)
 
 (defn fib
   ([n]

@@ -1,4 +1,4 @@
-(ns basics-2.ex-01-play-with-collections
+(ns basics-2.s_01_play_with_collections
   (:require [clojure.data.csv :as csv]
             [clojure.java.io :as io]))
 

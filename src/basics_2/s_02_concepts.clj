@@ -1,4 +1,4 @@
-(ns basics-2.ex_02_concepts)
+(ns basics-2.s_02_concepts)
 
 
 ;; Pure functions
